@@ -13,9 +13,7 @@ $paddingOutside: 50%;
   position: absolute;
   top: $paddingOutside;
   left: $paddingOutside;
-  -moz-transform: translateX(-$paddingOutside) translateY(-$paddingOutside);
-  -webkit-transform: translateX(-$paddingOutside) translateY(-$paddingOutside);
-  transform: translateX(- $paddingOutside) translateY(- $paddingOutside);
+  transform: translateX(- $paddingOutside) translateY(- 60%);
   background-color: $primary-color;
 }
 

@@ -8,6 +8,24 @@
   color: $text-color;
   font-family: 'Barlow', sans-serif;
 }
+
+.action-button {
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 25px;
+  height: 40px;
+  font-size: 16px;
+  background: $secondary-color;
+  border: 1px solid $secondary-color;
+  cursor: pointer;
+  transition: 0.3s; // TODO css variable
+}
+
+.action-button:hover {
+  border: 1px solid $secondary-color;
+  background: $primary-color;
+}
+
 body {
   margin: 0;
   padding: 0;

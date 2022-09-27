@@ -1,0 +1,25 @@
+@import "../../../styles/colors";
+
+.container {
+  width: 72px;
+  border-radius: 25%;
+  background-color: $background-icon-color;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid $background-icon-color;
+
+  img {
+    width: 70%;
+    height: 70%;
+    margin: 15%;
+  }
+}
+
+.selected {
+  background-color: $primary-color;
+}
+
+.container:hover {
+  background-color: $primary-color;
+}

@@ -1,1 +1,3 @@
-<p>os-selector works!</p>
+<button (click)="setOperatingSystem(operatingSystem)" class="container" *ngFor="let operatingSystem of operatingSystems;">
+  <img src="{{operatingSystem.icon}}" [ngClass]="{ 'selected': operatingSystem.id === selectedOperatingSystem.id }" alt="os">
+</button>

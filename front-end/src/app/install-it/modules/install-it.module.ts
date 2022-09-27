@@ -4,6 +4,7 @@ import {OsSelectorComponent} from "../components/os-selector/os-selector.compone
 import {InstallItRoutingModule} from "./install-it.routing.module";
 import {HomeComponent} from "../components/home/home.component";
 import {SharedModule} from "../../shared/modules/shared.module";
+import {OperatingSystemService} from "../services/operating-system.service";
 
 
 
@@ -11,6 +12,9 @@ import {SharedModule} from "../../shared/modules/shared.module";
   declarations: [
     HomeComponent,
     OsSelectorComponent
+  ],
+  providers: [
+    OperatingSystemService
   ],
   imports: [
     CommonModule,
