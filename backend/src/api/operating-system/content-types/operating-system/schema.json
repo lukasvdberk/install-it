@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "operating_systems",
+  "info": {
+    "singularName": "operating-system",
+    "pluralName": "operating-systems",
+    "displayName": "OperatingSystem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "packages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::package.package",
+      "inversedBy": "operating_systems"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

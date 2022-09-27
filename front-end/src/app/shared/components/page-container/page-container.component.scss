@@ -1,0 +1,28 @@
+@import "../../../styles/colors";
+
+.background-wrapper {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: $primary-color;
+}
+
+$paddingOutside: 50%;
+.container {
+  position: absolute;
+  top: $paddingOutside;
+  left: $paddingOutside;
+  -moz-transform: translateX(-$paddingOutside) translateY(-$paddingOutside);
+  -webkit-transform: translateX(-$paddingOutside) translateY(-$paddingOutside);
+  transform: translateX(- $paddingOutside) translateY(- $paddingOutside);
+  background-color: $primary-color;
+}
+
+@media (max-width: 800px) {
+  .container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+}
