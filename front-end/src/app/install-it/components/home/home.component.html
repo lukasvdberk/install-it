@@ -7,8 +7,8 @@
       After installation it will do the post installation instructions to make your package work.
     </p>
     <h3>Select your OS</h3>
-    <app-os-selector></app-os-selector>
-    <button class="action-button">Select packages!</button>
+    <app-os-selector (onOperatingSelected)="setSelectedOperatingSystem($event)"></app-os-selector>
+    <button (click)="goToSelectPackagesPage()" class="action-button">Select packages!</button>
   </div>
   <div class="inline-div">
     <img src="/assets/images/demo.gif" alt="demo">

@@ -5,13 +5,15 @@ import {InstallItRoutingModule} from "./install-it.routing.module";
 import {HomeComponent} from "../components/home/home.component";
 import {SharedModule} from "../../shared/modules/shared.module";
 import {OperatingSystemService} from "../services/operating-system.service";
+import {SelectPackagesComponent} from "../components/select-packages/select-packages.component";
 
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    OsSelectorComponent
+    OsSelectorComponent,
+    SelectPackagesComponent
   ],
   providers: [
     OperatingSystemService
