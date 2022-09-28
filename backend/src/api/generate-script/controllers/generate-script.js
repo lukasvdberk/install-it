@@ -7,7 +7,7 @@
 module.exports = {
   generateScript: async (ctx, next) => {
     try {
-      const operathingSystem = ctx.request.query.operathingSystem
+      const operatingSystem = ctx.request.query.operatingSystem
       const packagesToGenerateScriptFor = ctx.request.query.packages
 
       const availablePackages = await strapi.entityService.findMany(
@@ -17,7 +17,7 @@ module.exports = {
           filters: {
             $and: [{
                 operating_systems: {
-                  name: operathingSystem,
+                  name: operatingSystem,
                 },
                 name: { $in: packagesToGenerateScriptFor }
               }
@@ -26,7 +26,7 @@ module.exports = {
           populate: '*'
         }
       );
-      
+
       let singleCommand = ''
       for (const availablePackage of availablePackages) {
         singleCommand += availablePackage.command
