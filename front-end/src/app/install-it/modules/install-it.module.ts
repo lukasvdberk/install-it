@@ -6,6 +6,7 @@ import {HomeComponent} from "../components/home/home.component";
 import {SharedModule} from "../../shared/modules/shared.module";
 import {OperatingSystemService} from "../services/operating-system.service";
 import {SelectPackagesComponent} from "../components/select-packages/select-packages.component";
+import {PackageComponent} from "../components/package/package.component";
 
 
 
@@ -13,7 +14,8 @@ import {SelectPackagesComponent} from "../components/select-packages/select-pack
   declarations: [
     HomeComponent,
     OsSelectorComponent,
-    SelectPackagesComponent
+    SelectPackagesComponent,
+    PackageComponent
   ],
   providers: [
     OperatingSystemService

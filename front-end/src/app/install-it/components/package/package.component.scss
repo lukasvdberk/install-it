@@ -1,0 +1,15 @@
+@import "../../../styles/colors";
+
+div {
+  background-color: $text-color;
+  border-radius: 15px;
+
+  img {
+    display: inline-block;
+  }
+
+  h3 {
+    display: inline-block;
+    color: black;
+  }
+}

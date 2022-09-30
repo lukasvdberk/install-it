@@ -1,7 +1,7 @@
 @import "../../../styles/colors";
 
 .container {
-  width: 50px;
+  width: 55px;
   border-radius: 25%;
   background-color: $background-icon-color;
   outline: none;
@@ -10,9 +10,9 @@
   border: 1px solid $background-icon-color;
 
   img {
-    width: 70%;
-    height: 70%;
-    margin: 15%;
+    width: 80%;
+    height: 80%;
+    margin: 15% 10% 10%;
   }
 }
 
