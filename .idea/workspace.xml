@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="removed .idea files">
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.html" afterDir="false" />
+    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="removed idea files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,7 @@
       <workItem from="1664434450675" duration="2923000" />
       <workItem from="1664547318435" duration="2197000" />
       <workItem from="1664893952956" duration="126000" />
-      <workItem from="1664894089003" duration="2786000" />
+      <workItem from="1664894089003" duration="3786000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664299866766</created>
@@ -145,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664894108591</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial page for rendering packages">
+      <created>1664897849591</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664897849591</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed constructor">
+      <created>1664897892998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664897892998</updated>
+    </task>
+    <task id="LOCAL-00010" summary="removed idea files">
+      <created>1664897899707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664897899707</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +192,9 @@
     <MESSAGE value="set correct translation" />
     <MESSAGE value="initial grid template" />
     <MESSAGE value="removed .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed .idea files" />
+    <MESSAGE value="initial page for rendering packages" />
+    <MESSAGE value="removed constructor" />
+    <MESSAGE value="removed idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed idea files" />
   </component>
 </project>
