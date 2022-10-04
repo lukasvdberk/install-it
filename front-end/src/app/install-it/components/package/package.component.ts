@@ -7,6 +7,7 @@ import {Package} from "../../models/package.model";
   styleUrls: ['./package.component.scss']
 })
 export class PackageComponent {
+  @Input()
   isSelected: boolean = false;
 
   @Input()
@@ -22,7 +23,6 @@ export class PackageComponent {
    * On package selection call even emitters
    */
   onPackageSelected() {
-    console.log(this.isSelected)
     this.isSelected = !this.isSelected;
 
     if(this.isSelected) {

@@ -14,6 +14,7 @@ import {Package} from "../../models/package.model";
 })
 export class SelectPackagesComponent implements OnInit {
   packagesYouCanInstall: Package[] = [];
+  filteredPackages: Package[] = [];
 
   selectedPackages: Package[] = [];
 
@@ -32,7 +33,8 @@ export class SelectPackagesComponent implements OnInit {
         this.packagesService.getPackages(operatingSystem).subscribe({
           next: (packages) => {
             // packages you can install for this OS
-            this.packagesYouCanInstall = [...packages, ...packages, ...packages, ...packages, ...packages]
+            this.packagesYouCanInstall = packages;
+            this.filteredPackages = [...this.packagesYouCanInstall]
           },
           error: (error) => {
             // TODO handle error
@@ -45,6 +47,17 @@ export class SelectPackagesComponent implements OnInit {
         console.error(error)
       }
     })
+  }
+
+  /**
+   * Filters packages you can install
+   * @param searchTerm
+   */
+  searchPackage(event: any) {
+    const searchTerm = (event.target.value).toLowerCase();
+
+    // search lower case for the name of the package
+    this.filteredPackages = this.packagesYouCanInstall.filter((p) => p.name.toLowerCase().includes(searchTerm))
   }
 
   getOperatingSystemByName(name: string): Observable<OperatingSystem> {
@@ -60,4 +73,11 @@ export class SelectPackagesComponent implements OnInit {
     this.selectedPackages.splice(indexOfSelectedPackage, 1)
   }
 
+  /**
+   * Returns true if package is selected
+   * @param packageToCheck
+   */
+  isSelectedPackage(packageToCheck: Package) {
+    return this.selectedPackages.some((p) => p.id === packageToCheck.id)
+  }
 }

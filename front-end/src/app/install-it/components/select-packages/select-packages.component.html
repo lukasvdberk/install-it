@@ -1,15 +1,16 @@
 <app-page-container>
   <h1>Select your packages!</h1>
   <section class="search-bar-container">
-    <input class="search-bar" type="text" placeholder="NodeJS">
+    <input (input)="searchPackage($event)" class="search-bar" type="text" placeholder="NodeJS">
     <button class="action-button">Generate script!</button>
   </section>
   <section class="packages">
     <app-package
       (onPackageSelect)="selectedPackage($event)"
       (onDeselectedPackageSelect)="deselectedPackage($event)"
-      *ngFor="let package of packagesYouCanInstall"
-      [package]="package">
+      *ngFor="let package of filteredPackages"
+      [package]="package"
+      [isSelected]="isSelectedPackage(package)">
     </app-package>
   </section>
 </app-page-container>
