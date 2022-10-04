@@ -18,9 +18,6 @@ export class PackageComponent {
   @Output()
   onDeselectedPackageSelect: EventEmitter<Package> = new EventEmitter<Package>();
 
-
-  constructor() { }
-
   /**
    * On package selection call even emitters
    */
