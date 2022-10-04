@@ -3,13 +3,39 @@
 div {
   background-color: $text-color;
   border-radius: 15px;
+  height: 80px;
+  border: 1px solid $secondary-color;
+  box-shadow:
+    0 0 10px rgba(0, 0, 0, 0.034),
+    0 0 10px rgba(0, 0, 0, 0.048),
+    0 0 10px rgba(0, 0, 0, 0.06),
+    0 0 10px rgba(0, 0, 0, 0.072),
+    0 0 10px rgba(0, 0, 0, 0.086),
+    0 0 10px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 
   img {
     display: inline-block;
+    height: calc(100% - 30px);
+    margin: 15px;
   }
 
   h3 {
     display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-top: 0;
+    font-weight: normal !important;
     color: black;
+    font-size: 32px;
+  }
+}
+
+.selected-package {
+  border: 1px solid $secondary-color;
+  background: $primary-color;
+
+  h3 {
+    color: $text-color;
   }
 }

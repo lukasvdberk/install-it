@@ -5,6 +5,11 @@
     <button class="action-button">Generate script!</button>
   </section>
   <section class="packages">
-    <app-package *ngFor="let package of packagesYouCanInstall" [package]="package"></app-package>
+    <app-package
+      (onPackageSelect)="selectedPackage($event)"
+      (onDeselectedPackageSelect)="deselectedPackage($event)"
+      *ngFor="let package of packagesYouCanInstall"
+      [package]="package">
+    </app-package>
   </section>
 </app-page-container>

@@ -15,6 +15,8 @@ import {Package} from "../../models/package.model";
 export class SelectPackagesComponent implements OnInit {
   packagesYouCanInstall: Package[] = [];
 
+  selectedPackages: Package[] = [];
+
   constructor(
     private operatingSystemService: OperatingSystemService,
     private packagesService: PackagesService,
@@ -47,6 +49,15 @@ export class SelectPackagesComponent implements OnInit {
 
   getOperatingSystemByName(name: string): Observable<OperatingSystem> {
     return this.operatingSystemService.getOperatingSystemByName(name)
+  }
+
+  selectedPackage(selectedPackage: Package) {
+    this.selectedPackages.push(selectedPackage)
+  }
+
+  deselectedPackage(deselectedPackage: Package) {
+    const indexOfSelectedPackage = this.selectedPackages.findIndex((p) => p.id === deselectedPackage.id);
+    this.selectedPackages.splice(indexOfSelectedPackage, 1)
   }
 
 }

@@ -8,29 +8,25 @@
   padding: 15px;
   padding-left: 60px;
   font-size: 16px;
-  width: 60%;
+  width: 70%;
   background: white url('/assets/images/search.svg') no-repeat scroll 4px 4px;
 }
 
 .action-button {
   width: 20%;
-  margin-left: 16px;
+  float: right;
   display: inline-block;
 }
 
 .search-bar-container {
-  min-width: 800px;
-  width: 100%;
+  width: 120vh;
 }
 
 .packages {
+  margin-top: 25px;
   display: grid;
   grid-gap: 25px;
   /* Adjusting for the 10px grid-gap as well */
   //grid-template-columns: repeat(auto-fit, minmax(calc(100% / 3 - 50px), 1fr));
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-app-package {
-  height: 100px;
 }
