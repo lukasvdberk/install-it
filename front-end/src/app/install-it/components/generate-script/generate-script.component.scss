@@ -1,0 +1,30 @@
+* {
+  text-align: center;
+}
+
+.bash-install-url {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.install-text-container {
+  margin-top: 25px;
+  height: 30vh;
+  border-radius: 25px;
+  background-color: white;
+  padding: 25px;
+}
+
+.install-text {
+  color: black;
+  max-height: calc(30vh - 12.5px);
+  overflow: auto;
+  text-align: initial;
+}

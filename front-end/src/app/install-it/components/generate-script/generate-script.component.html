@@ -1,0 +1,13 @@
+<app-page-container>
+  <h1>Script generated!</h1>
+  <p>Below you will find a bash command that will execute the installation script of the different packages. If you want more details about what the script works read the full script below!</p>
+  <h3>Bash script</h3>
+  <div class="bash-install-url">{{ curlInstallCommand }}</div>
+  <button class="action-button">Copy curl command</button>
+  <h3>Full installation script!</h3>
+  <div class="install-text-container">
+    <pre class="install-text">
+      {{ installScriptText }}
+    </pre>
+  </div>
+</app-page-container>

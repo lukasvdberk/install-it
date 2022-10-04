@@ -17,18 +17,20 @@ export class SelectPackagesComponent implements OnInit {
   filteredPackages: Package[] = [];
 
   selectedPackages: Package[] = [];
+  osName = ''
 
   constructor(
     private operatingSystemService: OperatingSystemService,
     private packagesService: PackagesService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
-    const osName = this.route.snapshot.paramMap.get('os') as string;
+    this.osName = this.route.snapshot.paramMap.get('os') as string;
 
 
-    this.getOperatingSystemByName(osName).subscribe({
+    this.getOperatingSystemByName(this.osName).subscribe({
       next: (operatingSystem) => {
         this.packagesService.getPackages(operatingSystem).subscribe({
           next: (packages) => {
@@ -79,5 +81,17 @@ export class SelectPackagesComponent implements OnInit {
    */
   isSelectedPackage(packageToCheck: Package) {
     return this.selectedPackages.some((p) => p.id === packageToCheck.id)
+  }
+
+  /**
+   * Redirect user to generate installer page with the current selected packages
+   */
+  redirectToScriptGeneration(): void {
+    const selectedPackageNames = this.selectedPackages.map((p) => p.name);
+    this.router.navigate(['installer/generate', this.osName], {
+      queryParams: {
+        packages: selectedPackageNames
+      }
+    }).then().catch(console.log)
   }
 }

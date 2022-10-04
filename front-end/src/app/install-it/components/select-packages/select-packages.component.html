@@ -2,7 +2,7 @@
   <h1>Select your packages!</h1>
   <section class="search-bar-container">
     <input (input)="searchPackage($event)" class="search-bar" type="text" placeholder="NodeJS">
-    <button class="action-button">Generate script!</button>
+    <button (click)="redirectToScriptGeneration()" class="action-button">Generate script!</button>
   </section>
   <section class="packages">
     <app-package

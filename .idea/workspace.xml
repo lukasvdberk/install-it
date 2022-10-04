@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="removed idea files">
+    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="initial page for generating a script">
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/app/install-it/services/script-generator.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/modules/install-it.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/modules/install-it.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/modules/install-it.routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/modules/install-it.routing.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +99,7 @@
       <workItem from="1664434450675" duration="2923000" />
       <workItem from="1664547318435" duration="2197000" />
       <workItem from="1664893952956" duration="126000" />
-      <workItem from="1664894089003" duration="3786000" />
+      <workItem from="1664894089003" duration="8494000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664299866766</created>
@@ -164,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664897899707</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added method for filtering">
+      <created>1664898796375</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664898796375</updated>
+    </task>
+    <task id="LOCAL-00012" summary="removed idea file">
+      <created>1664898841596</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664898841596</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +216,9 @@
     <MESSAGE value="initial page for rendering packages" />
     <MESSAGE value="removed constructor" />
     <MESSAGE value="removed idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed idea files" />
+    <MESSAGE value="added method for filtering" />
+    <MESSAGE value="removed idea file" />
+    <MESSAGE value="initial page for generating a script" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial page for generating a script" />
   </component>
 </project>

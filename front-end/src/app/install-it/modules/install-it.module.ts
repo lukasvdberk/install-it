@@ -7,6 +7,9 @@ import {SharedModule} from "../../shared/modules/shared.module";
 import {OperatingSystemService} from "../services/operating-system.service";
 import {SelectPackagesComponent} from "../components/select-packages/select-packages.component";
 import {PackageComponent} from "../components/package/package.component";
+import {GenerateScriptComponent} from "../components/generate-script/generate-script.component";
+import {ScriptGeneratorService} from "../services/script-generator.service";
+import {PackagesService} from "../services/packages.service";
 
 
 
@@ -15,10 +18,13 @@ import {PackageComponent} from "../components/package/package.component";
     HomeComponent,
     OsSelectorComponent,
     SelectPackagesComponent,
-    PackageComponent
+    PackageComponent,
+    GenerateScriptComponent
   ],
   providers: [
-    OperatingSystemService
+    OperatingSystemService,
+    PackagesService,
+    ScriptGeneratorService,
   ],
   imports: [
     CommonModule,
