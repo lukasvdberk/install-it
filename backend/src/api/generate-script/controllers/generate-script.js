@@ -32,11 +32,8 @@ module.exports = {
         singleCommand += availablePackage.command
       }
 
-      console.log(availablePackages)
-      console.log(singleCommand)
       ctx.body = singleCommand
     } catch (err) {
-      console.log(err)
       ctx.body = err
     }
   }
