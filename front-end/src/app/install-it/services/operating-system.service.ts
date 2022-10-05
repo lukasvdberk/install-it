@@ -21,7 +21,7 @@ export class OperatingSystemService {
           const operatingSystems: OperatingSystem[] = []
           for (const operatingSystem of response.data) {
             operatingSystems.push({
-              id: operatingSystem.attributes.id,
+              id: operatingSystem.id,
               name: operatingSystem.attributes.name,
               icon: environment.backendBaseURL + operatingSystem.attributes.icon.data.attributes.url
             })
