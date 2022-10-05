@@ -23,7 +23,7 @@ export class PackagesService {
           const packages: Package[] = []
           for (const instalablePackage of response.data) {
             packages.push({
-              id: instalablePackage.id,
+              id: instalablePackage.attributes.id,
               name: instalablePackage.attributes.name,
               icon: environment.backendBaseURL + instalablePackage.attributes.icon.data.attributes.url,
               command: instalablePackage.attributes.command
