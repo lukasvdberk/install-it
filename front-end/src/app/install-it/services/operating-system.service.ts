@@ -18,7 +18,6 @@ export class OperatingSystemService {
     return this.http.get<OperatingSystem[]>(BASE_URL  + '?populate=*')
       .pipe(
         map((response: any) => {
-          console.log(response)
           const operatingSystems: OperatingSystem[] = []
           for (const operatingSystem of response.data) {
             operatingSystems.push({
@@ -27,7 +26,6 @@ export class OperatingSystemService {
               icon: environment.backendBaseURL + operatingSystem.attributes.icon.data.attributes.url
             })
           }
-          console.log(operatingSystems)
           return operatingSystems;
         })
       );
