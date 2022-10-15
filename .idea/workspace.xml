@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="initial page for generating a script" />
+    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="set correct id">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/shared/components/page-container/page-container.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/shared/components/page-container/page-container.component.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,11 +65,11 @@
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lukas\Projects\install-it" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\install-it\components" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\assets\images" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\shared\modules" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\shared\components" />
-      <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\install-it" />
     </key>
   </component>
   <component name="RunManager">
@@ -86,7 +98,12 @@
       <workItem from="1664434450675" duration="2923000" />
       <workItem from="1664547318435" duration="2197000" />
       <workItem from="1664893952956" duration="126000" />
-      <workItem from="1664894089003" duration="8973000" />
+      <workItem from="1664894089003" duration="10163000" />
+      <workItem from="1664955374683" duration="10000" />
+      <workItem from="1664966550643" duration="765000" />
+      <workItem from="1664982954228" duration="2172000" />
+      <workItem from="1665040582878" duration="11000" />
+      <workItem from="1665841034925" duration="5938000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664299866766</created>
@@ -179,7 +196,35 @@
       <option name="project" value="LOCAL" />
       <updated>1664905319902</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="removed console logs">
+      <created>1664905999974</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664905999974</updated>
+    </task>
+    <task id="LOCAL-00015" summary="set correct id">
+      <created>1664982979498</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664982979498</updated>
+    </task>
+    <task id="LOCAL-00016" summary="removed console logs">
+      <created>1664982989179</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664982989179</updated>
+    </task>
+    <task id="LOCAL-00017" summary="set correct id">
+      <created>1664983374306</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664983374306</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +258,8 @@
     <MESSAGE value="added method for filtering" />
     <MESSAGE value="removed idea file" />
     <MESSAGE value="initial page for generating a script" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial page for generating a script" />
+    <MESSAGE value="removed console logs" />
+    <MESSAGE value="set correct id" />
+    <option name="LAST_COMMIT_MESSAGE" value="set correct id" />
   </component>
 </project>

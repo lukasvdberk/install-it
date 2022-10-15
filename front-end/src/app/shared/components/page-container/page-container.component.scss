@@ -13,14 +13,18 @@ $paddingOutside: 50%;
   position: absolute;
   top: $paddingOutside;
   left: $paddingOutside;
-  transform: translateX(- $paddingOutside) translateY(- 60%);
+  min-width: 60vw;
+  min-height: 40vh;
+  transform: translateX(- $paddingOutside) translateY(- 70%);
   background-color: $primary-color;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .container {
-    position: relative;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
+    transform: none;
   }
 }

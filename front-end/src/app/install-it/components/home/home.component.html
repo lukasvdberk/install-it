@@ -1,16 +1,18 @@
 <app-page-container>
   <h1>Make package installation and setup easier</h1>
-  <div class="inline-div">
-    <p>
-      Make Linux server application easier.
-      When you select  packages it will generate a script that will install these packages.
-      After installation it will do the post installation instructions to make your package work.
-    </p>
-    <h3>Select your OS</h3>
-    <app-os-selector (onOperatingSelected)="setSelectedOperatingSystem($event)"></app-os-selector>
-    <button (click)="goToSelectPackagesPage()" class="action-button">Select packages!</button>
-  </div>
-  <div class="inline-div">
-    <img src="/assets/images/demo.gif" alt="demo">
-  </div>
+  <section class="bottom-section">
+    <div class="inline-div">
+      <p>
+        Make Linux server application easier.
+        When you select  packages it will generate a script that will install these packages.
+        After installation it will do the post installation instructions to make your package work.
+      </p>
+      <h3>Select your OS</h3>
+      <app-os-selector (onOperatingSelected)="setSelectedOperatingSystem($event)"></app-os-selector>
+      <button (click)="goToSelectPackagesPage()" class="action-button">Select packages!</button>
+    </div>
+    <div class="inline-div">
+      <img src="/assets/images/demo.gif" alt="demo">
+    </div>
+  </section>
 </app-page-container>

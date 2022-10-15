@@ -4,13 +4,16 @@
   bottom: 0;
 }
 
+.bottom-section {
+  width: 100%;
+}
+
 $margin: 4px;
 .inline-div {
 
   display: inline-block;
   width: calc(50% - $margin * 2);
   height: calc(50% - $margin * 2);
-  margin-text: 0;
   margin-left: $margin;
   margin-right: $margin;
 
