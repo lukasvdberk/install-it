@@ -6,6 +6,7 @@ import {Observable} from "rxjs";
 import {OperatingSystem} from "../../models/operating-system.model";
 import {PackagesService} from "../../services/packages.service";
 import {Package} from "../../models/package.model";
+import {SnackBarService} from "../../../shared/services/snack-bar.service";
 
 @Component({
   selector: 'app-select-packages',
@@ -23,7 +24,8 @@ export class SelectPackagesComponent implements OnInit {
     private operatingSystemService: OperatingSystemService,
     private packagesService: PackagesService,
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private snackBarService: SnackBarService
   ) { }
 
   ngOnInit(): void {
@@ -39,14 +41,12 @@ export class SelectPackagesComponent implements OnInit {
             this.filteredPackages = [...this.packagesYouCanInstall]
           },
           error: (error) => {
-            // TODO handle error
-            console.error(error)
+            this.snackBarService.showErrorMessage('Something went wrong while fetching packages')
           }
         })
       },
       error: (error: any) => {
-        // TODO handle error
-        console.error(error)
+        this.snackBarService.showErrorMessage('Something went wrong while fetching operating system')
       }
     })
   }
@@ -87,6 +87,12 @@ export class SelectPackagesComponent implements OnInit {
    * Redirect user to generate installer page with the current selected packages
    */
   redirectToScriptGeneration(): void {
+    // use must select a package
+    if (this.selectedPackages.length === 0) {
+      this.snackBarService.showErrorMessage('You must select at least one package')
+      return;
+    }
+
     const selectedPackageNames = this.selectedPackages.map((p) => p.name);
     this.router.navigate(['installer/generate', this.osName], {
       queryParams: {

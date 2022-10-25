@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="set correct id">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="first attempt at adding docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/shared/components/page-container/page-container.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/shared/components/page-container/page-container.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +55,11 @@
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lukas\Projects\install-it\backend" />
       <recent name="C:\Users\lukas\Projects\install-it" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\install-it\components" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\assets\images" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\shared\modules" />
-      <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\shared\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,7 +93,10 @@
       <workItem from="1664966550643" duration="765000" />
       <workItem from="1664982954228" duration="2172000" />
       <workItem from="1665040582878" duration="11000" />
-      <workItem from="1665841034925" duration="5938000" />
+      <workItem from="1665841034925" duration="6831000" />
+      <workItem from="1666078000041" duration="13000" />
+      <workItem from="1666078034991" duration="4000" />
+      <workItem from="1666470487167" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664299866766</created>
@@ -224,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664983374306</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="first attempt at adding docker">
+      <created>1665847336703</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665847336703</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +260,7 @@
     <MESSAGE value="initial page for generating a script" />
     <MESSAGE value="removed console logs" />
     <MESSAGE value="set correct id" />
-    <option name="LAST_COMMIT_MESSAGE" value="set correct id" />
+    <MESSAGE value="first attempt at adding docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="first attempt at adding docker" />
   </component>
 </project>

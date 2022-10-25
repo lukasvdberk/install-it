@@ -3,6 +3,7 @@ import {ActivatedRoute} from "@angular/router";
 import {ScriptGeneratorService} from "../../services/script-generator.service";
 // @ts-ignore
 import { copy } from 'copy-to-clipboard';
+import {SnackBarService} from "../../../shared/services/snack-bar.service";
 
 @Component({
   selector: 'app-generate-script',
@@ -15,7 +16,8 @@ export class GenerateScriptComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private scriptGeneratorService: ScriptGeneratorService
+    private scriptGeneratorService: ScriptGeneratorService,
+    private snackBarService: SnackBarService
   ) { }
 
   ngOnInit(): void {
@@ -31,8 +33,7 @@ export class GenerateScriptComponent implements OnInit {
         this.installScriptText = response.installScript
       },
       error: (error) => {
-        // TODO handle error
-        console.error(error)
+        this.snackBarService.showErrorMessage('Error generating script')
       }
     })
   }

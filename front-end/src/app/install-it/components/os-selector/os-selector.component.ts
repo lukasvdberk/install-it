@@ -1,6 +1,7 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {OperatingSystemService} from "../../services/operating-system.service";
 import {OperatingSystem} from "../../models/operating-system.model";
+import {SnackBarService} from "../../../shared/services/snack-bar.service";
 
 @Component({
   selector: 'app-os-selector',
@@ -15,7 +16,8 @@ export class OsSelectorComponent implements OnInit {
 
   operatingSystems: OperatingSystem[] = []
   constructor(
-    private operatingSystemService: OperatingSystemService
+    private operatingSystemService: OperatingSystemService,
+    private snackBarService: SnackBarService
   ) { }
 
   ngOnInit(): void {
@@ -25,12 +27,10 @@ export class OsSelectorComponent implements OnInit {
   getOperatingSystems(): void {
     this.operatingSystemService.getOperatingSystems().subscribe({
       next: (operatingSystems) => {
-        console.log(operatingSystems)
         this.operatingSystems = operatingSystems;
       },
       error: (error) => {
-        console.log(error)
-        // TODO redirect to error page
+        this.snackBarService.showErrorMessage('Something went wrong while fetching operating systems')
       }
     })
   }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {OperatingSystem} from "../../models/operating-system.model";
 import {Router} from "@angular/router";
+import {SnackBarService} from "../../../shared/services/snack-bar.service";
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,8 @@ export class HomeComponent implements OnInit {
   selectedOperatingSystem!: OperatingSystem;
 
   constructor(
-    private router: Router
+    private router: Router,
+    private snackBarService: SnackBarService
   ) { }
 
   ngOnInit(): void {
@@ -22,7 +24,7 @@ export class HomeComponent implements OnInit {
   }
   goToSelectPackagesPage(): void {
     if(!this.selectedOperatingSystem) {
-      // TODO show snackbar
+      this.snackBarService.showErrorMessage('Please select an operating system')
     }
     this.router.navigate(['packages/os', this.selectedOperatingSystem.name]).then().catch(console.log)
   }
