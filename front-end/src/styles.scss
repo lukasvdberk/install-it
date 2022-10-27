@@ -8,13 +8,18 @@
   color: $text-color;
   font-family: 'Barlow', sans-serif;
   font-weight: bold;
+  font-size: 16px;
 }
 
 h1 {
   display: block;
-  font-size: 48px;
+  font-size: 48px !important;
   text-align: center;
   width: 100%;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 .action-button {
@@ -22,7 +27,7 @@ h1 {
   padding-right: 25px;
   border-radius: 25px;
   height: 50px;
-  font-size: 16px;
+  font-size: 16px !important;
   background: $secondary-color;
   border: 1px solid $secondary-color;
   cursor: pointer;
@@ -39,7 +44,7 @@ h1 {
 }
 
 .success-message {
-  background: lightgreen;
+  background: darkgreen;
 }
 
 body {
@@ -47,5 +52,5 @@ body {
   padding: 0;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+//html, body { height: 100%; }
+//body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

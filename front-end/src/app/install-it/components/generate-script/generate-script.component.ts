@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {ScriptGeneratorService} from "../../services/script-generator.service";
 // @ts-ignore
-import { copy } from 'copy-to-clipboard';
+import copy from 'copy-to-clipboard';
 import {SnackBarService} from "../../../shared/services/snack-bar.service";
 
 @Component({
@@ -39,7 +39,8 @@ export class GenerateScriptComponent implements OnInit {
   }
 
   copyBashInstallScriptToClipboard() {
-    copy(this.installScriptText)
+    copy(this.curlInstallCommand)
+    this.snackBarService.showSuccessMessage('Install script copied to clipboard')
   }
 
 }
