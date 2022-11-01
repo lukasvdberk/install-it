@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="made search bar bigger on mobile">
+    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="added missing package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
       <workItem from="1666706066502" duration="5186000" />
       <workItem from="1666860220660" duration="1950000" />
       <workItem from="1666948391705" duration="23000" />
-      <workItem from="1667308758591" duration="2040000" />
+      <workItem from="1667308758591" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664299866766</created>
@@ -265,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667309770099</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added missing package">
+      <created>1667311146242</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667311146242</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +312,7 @@
     <MESSAGE value="added margin on small devices" />
     <MESSAGE value="optimized for mobile" />
     <MESSAGE value="made search bar bigger on mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="made search bar bigger on mobile" />
+    <MESSAGE value="added missing package" />
+    <option name="LAST_COMMIT_MESSAGE" value="added missing package" />
   </component>
 </project>
