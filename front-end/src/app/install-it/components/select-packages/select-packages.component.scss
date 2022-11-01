@@ -31,6 +31,21 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.suggest-package-button {
+  display: inline-block;
+  position: fixed;
+  width: 128px;
+  right: 16px;
+  bottom: 16px;
+  outline: 0;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 3;
+}
+
 @media (max-width: 1100px) {
   app-page-container {
     width: 100%;
