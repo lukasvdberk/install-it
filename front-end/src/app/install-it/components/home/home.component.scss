@@ -33,3 +33,22 @@ $margin: 4px;
     border-radius: 15px;
   }
 }
+
+@media (max-width: 1100px) {
+  * {
+    display: block !important;
+    width: 100%;
+  }
+  .inline-div {
+    width: 100% !important;
+    height: 100% !important;
+    img {
+      display: none !important;
+    }
+  }
+
+  .action-button {
+    margin-top: 16px;
+    position: relative;
+  }
+}

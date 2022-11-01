@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="added global sty">
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/generate-script/generate-script.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/package/package.component.scss" afterDir="false" />
+    <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="optimized for mobile">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/home/home.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/components/select-packages/select-packages.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/shared/components/page-container/page-container.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/shared/components/page-container/page-container.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/shared/components/page-container/page-container.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/shared/components/page-container/page-container.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +105,9 @@
       <workItem from="1666078034991" duration="4000" />
       <workItem from="1666470487167" duration="980000" />
       <workItem from="1666706066502" duration="5186000" />
+      <workItem from="1666860220660" duration="1950000" />
+      <workItem from="1666948391705" duration="23000" />
+      <workItem from="1667308758591" duration="832000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664299866766</created>
@@ -238,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666708997085</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fixed css responsiveness on small devices">
+      <created>1666860364738</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666860364738</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added margin on small devices">
+      <created>1666860372887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666860372887</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +294,9 @@
     <MESSAGE value="set correct id" />
     <MESSAGE value="first attempt at adding docker" />
     <MESSAGE value="added error messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added error messages" />
+    <MESSAGE value="fixed css responsiveness on small devices" />
+    <MESSAGE value="added margin on small devices" />
+    <MESSAGE value="optimized for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimized for mobile" />
   </component>
 </project>

@@ -61,20 +61,20 @@
   }
 
   .search-bar-container {
-    width: 400px;
+    width: 90% !important;
     padding: 16px;
     margin: 0 auto;
   }
 
   .search-bar {
-    display: block;
-    width: 300px;
+    width: 70% !important;
     margin: 0 auto;
+    display: block;
     float: none;
   }
 
   .action-button {
-    width: 60%;
+    min-width: 60%;
     display: block;
     margin: 16px auto 0;
     float: none;
