@@ -29,7 +29,7 @@ module.exports = {
 
       let singleCommand = ''
       for (const availablePackage of availablePackages) {
-        singleCommand += availablePackage.command
+        singleCommand += availablePackage.command + '\n'
       }
 
       ctx.body = singleCommand

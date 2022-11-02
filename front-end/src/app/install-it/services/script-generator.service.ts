@@ -32,7 +32,8 @@ export class ScriptGeneratorService {
     const responseType = 'text' // api does not send JSON but raw text as a response
 
     // generates string like http://install.it/api/generate-script?operatingSystem=linux&packages=NodeJS&packages=Docker
-    const installScriptUrl = BASE_URL + '?operatingSystem=' + osName + '&packages=' + selectedPackagesNames.join('&packages=');
+    let installScriptUrl = BASE_URL + '?operatingSystem=' + osName + '&packages=' + selectedPackagesNames.join('&packages=');
+    installScriptUrl = encodeURI(installScriptUrl);
     const curlInstallCommand = `bash <(curl -s ${installScriptUrl})`
 
     return this.http.get(BASE_URL, {

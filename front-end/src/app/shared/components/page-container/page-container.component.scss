@@ -7,7 +7,7 @@ $paddingOutside: 50%;
   left: $paddingOutside;
   min-width: 60vw;
   min-height: 40vh;
-  transform: translateX(- $paddingOutside) translateY(- 70%);
+  transform: translateX(- $paddingOutside) translateY(- $paddingOutside);
   background-color: $primary-color;
 }
 

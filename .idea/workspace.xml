@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="added missing package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/api/generate-script/controllers/generate-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api/generate-script/controllers/generate-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/services/script-generator.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/services/script-generator.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
