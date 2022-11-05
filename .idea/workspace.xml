@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="06ce5910-492e-42ab-bc60-44331b8f9bb2" name="Changes" comment="added missing package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/api/generate-script/controllers/generate-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api/generate-script/controllers/generate-script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/install-it/services/script-generator.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/install-it/services/script-generator.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +57,11 @@
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lukas\Projects\install-it\front-end\src" />
       <recent name="C:\Users\lukas\Projects\install-it\backend" />
       <recent name="C:\Users\lukas\Projects\install-it" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\install-it\components" />
       <recent name="C:\Users\lukas\Projects\install-it\front-end\src\assets\images" />
-      <recent name="C:\Users\lukas\Projects\install-it\front-end\src\app\shared\modules" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,6 +103,8 @@
       <workItem from="1666860220660" duration="1950000" />
       <workItem from="1666948391705" duration="23000" />
       <workItem from="1667308758591" duration="2977000" />
+      <workItem from="1667473187249" duration="86000" />
+      <workItem from="1667667821942" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664299866766</created>
