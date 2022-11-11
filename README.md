@@ -1,13 +1,14 @@
+# Install IT
 
 Live version available at:
 
 [https://install.lukas.sh](https://install.lukas.sh)
 
-# Install it
+# Description
 
 Tired of googling how to install a certain software package on your server? This is the place to find the answer.
 
-Install it is a project to make it easier to install software on Linux. 
+Install it in a project to make it easier to install software on Linux. 
 You simply select a Linux distribution and the software you want to install and Install it will generate a script that you can run to install the software.
 It will not just simply apt install the-package but will also run the post installation commands (for example setting permissions or setting up a database).
 
