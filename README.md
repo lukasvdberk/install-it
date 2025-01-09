@@ -1,8 +1,3 @@
-
-Live version available at:
-
-[https://install.lukas.sh](https://install.lukas.sh)
-
 # Install it
 
 Tired of googling how to install a certain software package on your server? This is the place to find the answer.
